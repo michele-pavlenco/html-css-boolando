@@ -1,45 +1,114 @@
 /*reset  */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-main{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    font-size: 0px;
+main {
+  margin: 0 auto;
+  font-size: 0;
+  width: 80%;
 }
-.card{
-    width:calc(100% / 3) ;
-    display: inline-block;
-    font-size: 10px;
-    vertical-align: middle;
-    padding: 20px;
+.card {
+  width: 300px;
+  display: inline-block;
+  font-size: 10px;
+  padding: 20px;
 }
-.card-img img{
-    width: 100%;
-    
+/* priama card */
+.card-img1 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/1.webp);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.price{
-    color: red;
-    font-weight: 600;
+
+.card-img1:hover {
+  background-image: url(../img/1b.webp);
 }
-.overlay{
-    display: none;
-    
+
+.card-img2 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/2.webp);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.card-img:hover .overlay{
-    display: block;
-    left: 0;
-    top: 0;
-    position:relative;
-    
-    
-    
-    
-   
-   
-    
-    
+
+.card-img2:hover {
+  background-image: url(../img/2b.webp);
+}
+.card-img3 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/3.webp);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-img3:hover {
+  background-image: url(../img/3b.webp);
+}
+
+.card-img4 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/4.webp);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-img4:hover {
+  background-image: url(../img/4b.webp);
+}
+.card-img5 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/5.webp);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-img5:hover {
+  background-image: url(../img/5b.webp);
+}
+
+.card-img6 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/6.webp);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-img6:hover {
+  background-image: url(../img/6b.webp);
+}
+
+.price {
+  color: red;
+  font-weight: 600;
+}
+
+.heart {
+  top: 12px;
+  left: 250px;
+  position: relative;
+  background-color: white;
+  padding: 2px 7px;
+  color: red;
+  cursor: pointer;
+}
+.sostenibilita:hover {
+  left: 0px;
+  bottom: -235px;
+  position: relative;
+  background-color: green;
 }
