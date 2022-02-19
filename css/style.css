@@ -1,124 +1,122 @@
 /*reset  */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 main {
-  margin: 0 auto;
-  font-size: 0;
-  width: 80%;
+    margin: 0 auto;
+    font-size: 0;
+    width: 80%;
 }
+
 .card {
-  display: inline-block;
-  font-size: 12px;
-  padding: 20px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 20px;
 }
+
 /* priama card */
 .card-img1 {
-  width: 300px;
-  height: 400px;
-  background-image: url(../img/1.webp);
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
-  
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .card-img1:hover {
-  background-image: url(../img/1b.webp);
+    background-image: url(../img/1b.webp);
 }
 
 .card-img2 {
-  width: 300px;
-  height: 400px;
-  background-image: url(../img/2.webp);
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/2.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .card-img2:hover {
-  background-image: url(../img/2b.webp);
+    background-image: url(../img/2b.webp);
 }
+
 .card-img3 {
-  width: 300px;
-  height: 400px;
-  background-image: url(../img/3.webp);
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/3.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .card-img3:hover {
-  background-image: url(../img/3b.webp);
+    background-image: url(../img/3b.webp);
 }
 
 .card-img4 {
-  width: 300px;
-  height: 400px;
-  background-image: url(../img/4.webp);
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/4.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .card-img4:hover {
-  background-image: url(../img/4b.webp);
+    background-image: url(../img/4b.webp);
 }
+
 .card-img5 {
-  width: 300px;
-  height: 400px;
-  background-image: url(../img/5.webp);
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/5.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .card-img5:hover {
-  background-image: url(../img/5b.webp);
+    background-image: url(../img/5b.webp);
 }
 
 .card-img6 {
-  width: 300px;
-  height: 400px;
-  background-image: url(../img/6.webp);
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/6.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .card-img6:hover {
-  background-image: url(../img/6b.webp);
+    background-image: url(../img/6b.webp);
 }
 
 .price {
-  color: red;
-  font-weight: 600;
+    color: red;
+    font-weight: 600;
 }
 
 .heart {
-  top: 17px;
-  left: 256px;
-  position: relative;
-  background-color: white;
-  padding: 2px 7px;
-  color: red;
-  cursor: pointer;
-  font-size: px;
-  
+    top: 17px;
+    left: 256px;
+    position: relative;
+    background-color: white;
+    padding: 2px 7px;
+    color: red;
+    cursor: pointer;
+    font-size: px;
 }
-.sostenibilita{
-  left: -25px;
-  bottom: -370px;
-  position: relative;
-  background-color: rgb(86, 184, 86);
-  
-  
+
+.sostenibilita {
+    left: -25px;
+    bottom: -370px;
+    position: relative;
+    background-color: rgb(86, 184, 86);
 }
-.discount{
-    background-color: rgb(185, 18, 18);
+
+.discount {
+    background-color: rgb(255, 0, 0);
     position: relative;
     left: -25px;
     bottom: -370px;
+    font-weight: bolder;
 }
