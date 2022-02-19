@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 main{
-    width: 80% auto;
-    margin: 200px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
     font-size: 0px;
 }
 .card{
@@ -18,5 +19,27 @@ main{
 }
 .card-img img{
     width: 100%;
+    
 }
-
+.price{
+    color: red;
+    font-weight: 600;
+}
+.overlay{
+    display: none;
+    
+}
+.card-img:hover .overlay{
+    display: block;
+    left: 0;
+    top: 0;
+    position:relative;
+    
+    
+    
+    
+   
+   
+    
+    
+}
