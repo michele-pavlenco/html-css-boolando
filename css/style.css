@@ -4,3 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    width: 80% auto;
+    margin: 200px auto;
+    font-size: 0px;
+}
+.card{
+    width:calc(100% / 3) ;
+    display: inline-block;
+    font-size: 10px;
+    vertical-align: middle;
+    padding: 20px;
+}
+.card-img img{
+    width: 100%;
+}
+
