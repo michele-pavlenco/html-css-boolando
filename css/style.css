@@ -10,9 +10,8 @@ main {
   width: 80%;
 }
 .card {
-  width: 300px;
   display: inline-block;
-  font-size: 10px;
+  font-size: 12px;
   padding: 20px;
 }
 /* priama card */
@@ -23,6 +22,7 @@ main {
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
+  
 }
 
 .card-img1:hover {
@@ -98,17 +98,27 @@ main {
 }
 
 .heart {
-  top: 12px;
-  left: 250px;
+  top: 17px;
+  left: 256px;
   position: relative;
   background-color: white;
   padding: 2px 7px;
   color: red;
   cursor: pointer;
+  font-size: px;
+  
 }
-.sostenibilita:hover {
-  left: 0px;
-  bottom: -235px;
+.sostenibilita{
+  left: -25px;
+  bottom: -370px;
   position: relative;
-  background-color: green;
+  background-color: rgb(86, 184, 86);
+  
+  
+}
+.discount{
+    background-color: rgb(185, 18, 18);
+    position: relative;
+    left: -25px;
+    bottom: -370px;
 }
